@@ -3,20 +3,20 @@
 Exploratory data analysis and anomaly detection on 284,807 credit card 
 transactions using Python, MySQL, and Plotly.
 
-## Key Findings
-- Only 0.17% of transactions are fraudulent — heavily imbalanced dataset
-- Fraud peaks between 2 AM – 4 AM (late night window)
-- Highest fraud rate in the 500–1K amount range
-- Z-score flagging successfully identified anomalous transactions
+# Key Findings
+1. Only 0.17% of transactions are fraudulent heavily imbalanced dataset
+2. Fraud peaks between 2 AM – 4 AM (late night window)
+3. Highest fraud rate in the 500–1K amount range
+4. Z-score flagging successfully identified anomalous transactions
 
-## Tech Stack
+# Tech Stack
 Python | Pandas | Seaborn | MySQL | Plotly
 
-## Project Structure
-- `fraud_eda.py` — data cleaning, EDA, Z-score anomaly detection
-- `fraud_queries.sql` — 8 SQL queries for fraud pattern analysis  
-- `fraud_dashboard_final.py` — interactive dashboard code
-- `fraud_dashboard.html` — final dashboard (open in browser)
+# Project Structure
+1. `fraud_eda.py` — data cleaning, EDA, Z-score anomaly detection
+2. `fraud_queries.sql` — 8 SQL queries for fraud pattern analysis  
+3. `fraud_dashboard_final.py` — interactive dashboard code
+4. `fraud_dashboard.html` — final dashboard (open in browser)
 
-## Dataset
+# Dataset
 Kaggle — Credit Card Fraud Detection (ULB, 284K transactions)
